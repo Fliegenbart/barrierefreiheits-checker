@@ -18,7 +18,7 @@ import { PptxAiEnhancer } from "@/lib/pptx/ai-enhancer";
 import { ConversionProfile, AccessibilityReport } from "@/lib/pptx/types";
 
 // Next.js App Router: Route Segment Config
-export const maxDuration = 60; // 60 Sekunden Timeout
+export const maxDuration = 240; // 240 Sekunden Timeout
 export const dynamic = "force-dynamic";
 
 // Temporäre Verzeichnisse
