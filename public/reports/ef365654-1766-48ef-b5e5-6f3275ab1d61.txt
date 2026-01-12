@@ -1,0 +1,138 @@
+=== Barrierefreiheits-Prüfbericht ===
+
+Dokument: rvEvolution PPT Master
+Datum: 10.1.2026
+
+6 Fehler und 25 Warnungen gefunden.
+
+--- Fehler (müssen behoben werden) ---
+• Bild hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Grafik 142" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Grafik 166" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Grafik 167" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+--- Warnungen (sollten behoben werden) ---
+• Folie 7 hat keinen Titel
+  Folie: 7
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Folie 8 hat keinen Titel
+  Folie: 8
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Lesereihenfolge auf Folie 9 ist möglicherweise unkorrekt
+  Folie: 9
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Folie 14 hat keinen Titel
+  Folie: 14
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Folie 21 hat keinen Titel
+  Folie: 21
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Lesereihenfolge auf Folie 25 ist möglicherweise unkorrekt
+  Folie: 25
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Lesereihenfolge auf Folie 26 ist möglicherweise unkorrekt
+  Folie: 26
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Folie 27 hat keinen Titel
+  Folie: 27
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Lesereihenfolge auf Folie 28 ist möglicherweise unkorrekt
+  Folie: 28
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Folie 30 hat keinen Titel
+  Folie: 30
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Textfelder in Tabellenanordnung erkannt
+  Folie: 31
+  Empfehlung: Konvertieren Sie in eine echte Tabelle für korrektes Accessibility-Markup
+
+• Lesereihenfolge auf Folie 32 ist möglicherweise unkorrekt
+  Folie: 32
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Folie 37 hat keinen Titel
+  Folie: 37
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Folie 40 hat keinen Titel
+  Folie: 40
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Folie 41 hat keinen Titel
+  Folie: 41
+  Empfehlung: Fügen Sie einen Titel hinzu, um Navigation über Überschriften zu ermöglichen
+
+• Folie hat keinen Titel
+  Folie: 7
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 8
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 14
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 21
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 27
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 30
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Textfelder in Tabellenform erkannt
+  Folie: 31
+  Empfehlung: Konvertieren Sie in eine echte Tabelle für Barrierefreiheit
+
+• Folie hat keinen Titel
+  Folie: 37
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 40
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu
+
+• Folie hat keinen Titel
+  Folie: 41
+  Empfehlung: Fügen Sie jeder Folie einen Titel zur Navigation hinzu

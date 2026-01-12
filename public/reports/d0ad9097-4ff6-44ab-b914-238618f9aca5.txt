@@ -1,0 +1,51 @@
+=== Barrierefreiheits-Prüfbericht ===
+
+Dokument: rvEvolution PPT Master
+Datum: 10.1.2026
+
+3 Fehler und 7 Warnungen gefunden.
+
+--- Fehler (müssen behoben werden) ---
+• Bild "Grafik 142" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Grafik 166" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Grafik 167" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+--- Warnungen (sollten behoben werden) ---
+• Lesereihenfolge auf Folie 9 ist möglicherweise unkorrekt
+  Folie: 9
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Lesereihenfolge auf Folie 25 ist möglicherweise unkorrekt
+  Folie: 25
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Lesereihenfolge auf Folie 26 ist möglicherweise unkorrekt
+  Folie: 26
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Lesereihenfolge auf Folie 28 ist möglicherweise unkorrekt
+  Folie: 28
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Textfelder in Tabellenanordnung erkannt
+  Folie: 31
+  Empfehlung: Konvertieren Sie in eine echte Tabelle für korrektes Accessibility-Markup
+
+• Lesereihenfolge auf Folie 32 ist möglicherweise unkorrekt
+  Folie: 32
+  Empfehlung: Überprüfen und ggf. manuell anpassen
+
+• Textfelder in Tabellenform erkannt
+  Folie: 31
+  Empfehlung: Konvertieren Sie in eine echte Tabelle für Barrierefreiheit

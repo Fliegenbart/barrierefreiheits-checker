@@ -1,0 +1,6 @@
+=== Barrierefreiheits-Prüfbericht ===
+
+Dokument: E.ON PowerPoint
+Datum: 10.1.2026
+
+✅ Keine Barrierefreiheitsprobleme gefunden.

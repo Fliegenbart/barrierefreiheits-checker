@@ -1,0 +1,230 @@
+=== Barrierefreiheits-Prüfbericht ===
+
+Dokument: title of presentation in two lines
+Datum: 10.1.2026
+
+22 Fehler und 28 Warnungen gefunden.
+
+--- Fehler (müssen behoben werden) ---
+• Bild hat keinen Alternativtext
+  Folie: 1
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 24
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 25
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 28
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 30
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 30
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild hat keinen Alternativtext
+  Folie: 36
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;231;p2" hat keinen Alternativtext
+  Folie: 1
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;532;g3af95a5563a_0_582" hat keinen Alternativtext
+  Folie: 24
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;545;g3af95a5563a_0_662" hat keinen Alternativtext
+  Folie: 25
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;572;g3af95a5563a_0_731" hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;573;g3af95a5563a_0_731" hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;574;g3af95a5563a_0_731" hat keinen Alternativtext
+  Folie: 27
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;588;g3af95a5563a_0_741" hat keinen Alternativtext
+  Folie: 28
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;610;g3af95a5563a_0_751" hat keinen Alternativtext
+  Folie: 30
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;611;g3af95a5563a_0_751" hat keinen Alternativtext
+  Folie: 30
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Google Shape;655;g3af95a5563a_0_771" hat keinen Alternativtext
+  Folie: 34
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+• Bild "Bildplatzhalter 8" hat keinen Alternativtext
+  Folie: 36
+  WCAG: 1.1.1 - Nicht-Text-Inhalt
+  Empfehlung: Fügen Sie beschreibenden Alt-Text hinzu oder markieren Sie als dekorativ
+
+--- Warnungen (sollten behoben werden) ---
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 2
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 3
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 4
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 5
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 6
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 7
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 8
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 9
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 10
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 11
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 12
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 13
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 14
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 15
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 16
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 17
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 18
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 19
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 20
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 21
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 22
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 23
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 23
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 25
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 26
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 28
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 32
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text
+
+• Alt-Text ist möglicherweise nicht ausreichend beschreibend
+  Folie: 34
+  Empfehlung: Überprüfen Sie den Alt-Text: Vermeiden Sie Dateinamen, generische Beschreibungen oder zu kurzen Text

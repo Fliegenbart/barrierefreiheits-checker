@@ -1,0 +1,106 @@
+# Docker Compose Konfiguration für Produktion
+# Barrierefreiheit-Plattform - Deployment auf deutschem Server
+#
+# Verwendung:
+#   docker compose -f docker-compose.prod.yml up -d
+#
+# Mit Traefik (empfohlen für HTTPS):
+#   docker compose -f docker-compose.prod.yml --profile traefik up -d
+
+services:
+  # ===== Next.js Anwendung =====
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: barrierefreiheit-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # OpenAI API Key für KI-Funktionen (Alt-Text, Leichte Sprache, Transkription)
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # Optional: Anthropic API für alternative KI-Modelle
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      # Persistente Speicherung für generierte Dateien
+      - app-downloads:/app/public/downloads
+      - app-reports:/app/public/reports
+      - app-tmp:/app/tmp
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      # Traefik Labels (optional, wenn Traefik verwendet wird)
+      - "traefik.enable=true"
+      - "traefik.http.routers.barrierefreiheit.rule=Host(`${DOMAIN:-barrierefreiheit.example.de}`)"
+      - "traefik.http.routers.barrierefreiheit.entrypoints=websecure"
+      - "traefik.http.routers.barrierefreiheit.tls.certresolver=letsencrypt"
+      - "traefik.http.services.barrierefreiheit.loadbalancer.server.port=3000"
+    networks:
+      - web
+
+  # ===== Traefik Reverse Proxy (optional) =====
+  traefik:
+    image: traefik:v3.0
+    container_name: traefik
+    profiles:
+      - traefik
+    restart: unless-stopped
+    command:
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.letsencrypt.acme.email=${ACME_EMAIL:-admin@example.de}"
+      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "traefik-letsencrypt:/letsencrypt"
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`traefik.${DOMAIN:-barrierefreiheit.example.de}`)"
+      - "traefik.http.routers.dashboard.service=api@internal"
+      - "traefik.http.routers.dashboard.entrypoints=websecure"
+      - "traefik.http.routers.dashboard.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.dashboard.middlewares=auth"
+      - "traefik.http.middlewares.auth.basicauth.users=${TRAEFIK_AUTH:-}"
+
+  # ===== Watchtower für automatische Updates (optional) =====
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    profiles:
+      - autoupdate
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_POLL_INTERVAL=86400  # Täglich prüfen
+      - WATCHTOWER_INCLUDE_STOPPED=false
+    command: barrierefreiheit-app
+
+networks:
+  web:
+    driver: bridge
+
+volumes:
+  app-downloads:
+  app-reports:
+  app-tmp:
+  traefik-letsencrypt:
