@@ -17,6 +17,10 @@ import { PdfUaGenerator } from "@/lib/pdf/generator";
 import { PptxAiEnhancer } from "@/lib/pptx/ai-enhancer";
 import { ConversionProfile, AccessibilityReport } from "@/lib/pptx/types";
 
+// Next.js App Router: Route Segment Config
+export const maxDuration = 60; // 60 Sekunden Timeout
+export const dynamic = "force-dynamic";
+
 // Temporäre Verzeichnisse
 const UPLOAD_DIR = join(process.cwd(), "tmp", "uploads");
 const OUTPUT_DIR = join(process.cwd(), "tmp", "output");
@@ -186,7 +190,24 @@ export async function POST(request: NextRequest) {
     try {
       // === Phase 1: PPTX Parsen ===
       const parser = new PptxParser();
-      const presentation = await parser.parse(buffer);
+      let presentation;
+      try {
+        presentation = await parser.parse(buffer);
+      } catch (parseError) {
+        console.error("PPTX Parse-Fehler:", parseError);
+        await cleanup(inputPath);
+        const errorMessage = parseError instanceof Error ? parseError.message : String(parseError);
+        return NextResponse.json(
+          {
+            success: false,
+            errors: [
+              `Fehler beim Lesen der PowerPoint-Datei: ${errorMessage}. ` +
+              "Stellen Sie sicher, dass es sich um eine gültige .pptx-Datei handelt (keine .ppt-Datei).",
+            ],
+          },
+          { status: 400 }
+        );
+      }
 
       // Titel überschreiben falls angegeben
       if (customTitle) {

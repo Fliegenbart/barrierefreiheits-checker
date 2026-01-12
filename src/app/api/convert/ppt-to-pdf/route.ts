@@ -6,6 +6,10 @@ import { exec } from "child_process";
 import { promisify } from "util";
 import { randomUUID } from "crypto";
 
+// Next.js App Router: Route Segment Config
+export const maxDuration = 60;
+export const dynamic = "force-dynamic";
+
 const execAsync = promisify(exec);
 
 // Temporäres Verzeichnis für Uploads
